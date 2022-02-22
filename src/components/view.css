@@ -1,0 +1,74 @@
+.tasks{
+    color: #003979;
+    text-align: center;
+    /* margin-top: 40px; */
+}
+
+.one{
+    background-color: white;
+    box-shadow: 0 15px 50px rgba(0,0,0, 0.1);
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #003979;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn1,.btn2{
+    height: 35px;
+    padding: 0px 15px;
+    font-weight: 500;
+    color: white;
+    background-color:#003979 ;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    /* letter-spacing: 1px; */
+    font-size: 15px;
+  }
+  
+  .btn1:focus, .btn2:focus{
+    outline: none;
+  }
+
+  .btn2{
+      margin-left: 10px;
+      background-color: #D60707;
+  }
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:561px){
+    .btn1,.btn2{
+        height: 30px;
+    padding: 0px 10px;
+    font-weight: 400;
+    font-size: 12px;
+    }
+    .one{
+        padding: 8px 6px;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width:488px){
+    .btn1,.btn2{
+        height: 25px;
+    padding: 0px 6px;
+    font-weight: 400;
+    font-size: 10px;
+    }
+    .one{
+        padding: 8px 6px;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+}

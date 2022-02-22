@@ -1,0 +1,90 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:#E8F3FE;
+}
+.box{
+  padding-top: 80px;
+  padding: 50px;
+}
+
+.crd{
+  background-color: white;
+  box-shadow: 0 15px 50px rgba(0,0,0, 0.1);
+  padding: 20px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.heading{
+  color: #003979;
+}
+
+#title{
+  width: 70%;
+  margin-top: 25px;
+  height: 40px;
+  border-radius: 6px;
+  border: 2px solid rgb(196, 192, 192);
+  outline: none;
+  padding: 5px;
+}
+#description{
+  width: 70%;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid rgb(196, 192, 192);
+  outline: none;
+  padding: 5px;
+}
+
+#date{
+  width: 70%;
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 6px;
+  border: 2px solid rgb(196, 192, 192);
+  outline: none;
+  padding: 5px;
+}
+
+#title:focus, #date:focus, #description:focus{
+  border: 2px solid #003979;
+}
+.btn{
+  margin-top: 20px;
+}
+
+.sub{
+  height: 40px;
+  padding: 0px 20px;
+  font-weight: 600;
+  color: white;
+  background-color:#003979 ;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  letter-spacing: 1.2px;
+  font-size: 18px;
+}
+
+.sub:focus{
+  outline: none;
+}
+
+.remove{
+  margin-bottom: 20px;
+  margin-left: 20%;
+}
+
+@media screen and (max-width:626px){
+  .crd{
+    padding: 10px;
+  }
+}
+
+
